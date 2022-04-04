@@ -1,19 +1,20 @@
-## Unique Char
+## Anagrams
+
+A hard problem made easy with the right use of built-ins
 
 ## Challenge
 
-Write a function that takes a string and finds and returns the any (STRETCH: first) instance of a non-repeating character in it. If there is no such character, return '\_'.
+Write a function that takes two words as arguments and returns true if they are anagrams (contain the exact same letters) and false otherwise.
 
 ```js
-function uniqueChar(string) {
+function anagrams(wordOne, wordTwo) {
 ```
 
 > **You can assume valid input**
 
 ## Test Cases
 
-| Input              |                                     Output | Notes |
-| ------------------ | -----------------------------------------: | ----- |
-| `'abdacabad'`      |                                      `'c'` |
-| `'abacabaabacaba'` |                                      `'_'` |
-| `'abacabad'`       | `'c'` (not `'d'` because it occurs second) |
+| Input                                |  Output |
+| ------------------------------------ | ------: |
+| `'superintended'`, `'unpredestined'` |  `true` |
+| `'pictorialness'`, `'documentarily'` | `false` |
