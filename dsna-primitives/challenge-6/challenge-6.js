@@ -4,7 +4,7 @@ function anagrams(wordOne, wordTwo) {
   const one = wordOne.split('').sort().join('');
   const two = wordTwo.split('').sort().join('');
   // [] [alphabetized]
-  return one === two ? 'true' : 'false';
+  return one === two;
 }
 
 // console.log(anagrams(wordOne, wordTwo))
