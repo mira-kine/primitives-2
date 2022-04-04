@@ -8,3 +8,5 @@ function titleCase(sentence) {
     .join(' ');
   return lowerCase;
 }
+
+// console.log('titleCase', titleCase('alchemy ROCKS goLD'));
